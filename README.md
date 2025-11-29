@@ -15,8 +15,7 @@ so it  essentially works like a patch cable.
 
 5. It was built for windows using windows shared memory - it probably will not work on Mac I havn't tested or built this for Mac OS.
 
-6. Future add ons I was going to do but chose sleep instead - a knob to adjust the buffer - it likely needs some type of limiter or soft clipper it is suggested to load some type of clipper
-or limiter in chain be preared to control the feedback you can add effects.
+6. Future add ons I was going to do but chose sleep instead - a knob to adjust the buffer - it likely needs some type of limiter or soft clipper it is suggested to load some type of clipper or limiter in chain be preared to control the feedback you can add effects in the signal chain.  A knob for a feedback reduction or shaping algorythm might also be useful.
 I am also going to look into building a return effect I though the generator would be best suited. If using something like senderella you can insert the channel it is assigned to.
 A delay knob to adjust the buffer to less than 3 seconds or more was not added to safety considerations while testing. 
 
