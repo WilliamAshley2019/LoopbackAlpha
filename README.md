@@ -6,7 +6,7 @@ Made with Juce 8.09 and the VST3 SDK -
 HOW IT WORKS
 
 1. Load the Send Effect VST3 plugin to a mixer track - this was made for FL Studio due to FL Studio blocking some types of loopback routing.
-2. Load the Return Vsti plugin in fl studio into a channel rack channel (or possibly patcher havn't tested it)
+2. Load the Return Vsti plugin in fl studio into a channel rack channel (or possibly patcher havn't tested it). It may work in other DAWs but is untested in them.
 
 3. Once loaded whatever audio is reaching the Send Effect point will be relayed to the Return Plugin you can then assign a mixer track to that generator to send it to a different route
 so it  essentially works like a patch cable.
