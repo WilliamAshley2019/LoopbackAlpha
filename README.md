@@ -1,6 +1,7 @@
-Made with Juce 8.09 and the VST3 SDK - I will add their license notes later just getting this up if you build with these you are likely already aware so implicit understanding there
-  Basic Plugin - one is built as an effect the other as instrument.  Common manufacturer ID and Different Plugin ID was used intially due to earlier attempt to use share instance memory
-  but it didn't work so windows shared memory was used instead.
+Made with Juce 8.09 and the VST3 SDK - 
+
+  Basic  Plugin - one is built as an effect the other as instrument.  Common manufacturer ID and Different Plugin ID was used intially due to earlier attempt to use share instance memory
+  but it didn't work so windows shared memory was used instead.    
   
 HOW IT WORKS
 
@@ -18,3 +19,10 @@ so it  essentially works like a patch cable.
 or limiter in chain be preared to control the feedback you can add effects.
 I am also going to look into building a return effect I though the generator would be best suited. If using something like senderella you can insert the channel it is assigned to.
 A delay knob to adjust the buffer to less than 3 seconds or more was not added to safety considerations while testing. 
+
+
+
+VST3 license https://steinbergmedia.github.io/vst3_dev_portal/pages/VST+3+Licensing/VST3+License
+
+
+This is working for me on windows 11, if it isn't working for you check your routing there is a delay of 3 seconds. Audio quality likely needs to be smoothed still.
