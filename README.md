@@ -11,7 +11,7 @@ HOW IT WORKS
 3. Once loaded whatever audio is reaching the Send Effect point will be relayed to the Return Plugin you can then assign a mixer track to that generator to send it to a different route
 so it  essentially works like a patch cable.
 
-4. It was built with a buffer and it still can have runaway feedback.  The delay is there to prevent overloading the signal with very rapid runaway feedback.
+4. It was built with a buffer and it still can have runaway feedback.  The delay is there to prevent overloading the signal with very rapid runaway feedback. Its pretty easy to spot in the source if you want to adjust it and rebuild. I need to test to see how it behaves with a dynamic feedback rate knob, the big issue is that the feedback needs a good control system because even with a 3 second delay the feedback can build rapidly.
 
 5. It was built for windows using windows shared memory - it probably will not work on Mac I havn't tested or built this for Mac OS.
 
