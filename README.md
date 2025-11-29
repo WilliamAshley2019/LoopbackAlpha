@@ -1,6 +1,6 @@
 Made with Juce 8.09 and the VST3 SDK - 
 
-  Basic  Plugin - one is built as an effect the other as instrument.  Common manufacturer ID and Different Plugin ID was used intially due to earlier attempt to use share instance memory
+  Basic  Plugin - one is built as an effect the other as instrument.  Common manufacturer ID and Different Plugin ID was used intially due to earlier attempt to use shared instance memory
   but it didn't work so windows shared memory was used instead.    
   
 HOW IT WORKS
